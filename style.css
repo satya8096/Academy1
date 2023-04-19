@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepagemain{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./images/photo-1562774053-701939374585.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 0%;
+}
+header i{
+    font-size: 80px;
+    color: springgreen;
+}
+.nav li{
+    list-style-type: none;
+    float: left;
+}
+.nav li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-decoration: none;
+}
+.nav li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #F1E03B;
+    border-radius: 20px;
+    box-shadow: 1px 1px 14px 3px white;
+}
+
+/* Main Heading */
+
+.mainheading p{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E71D36;
+    font-weight: bold;
+    text-align: center;
+    padding: 13% 0%;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.mainheading span{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.featuressection{
+    background-color: #005c87;
+    height: 50%;
+}
+
+.feadhead{
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 20%;
+    color: white;
+    background-color: chocolate;
+    text-align: center;
+}
+
+.feaallpics{
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
+
+
+/* Courses Page */
+
+.coursestables table{
+    border-collapse: collapse;
+    padding: 20px;
+    width: 40%;
+    margin: 10% auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+.coursestables table caption{
+    margin-bottom: 2%;
+    font-size: 25px;
+    font-weight: 800;
+    color: #005c87;
+}
+.coursestables table th,td{
+    padding: 20px;
+}
+
+
+/* Departments Page */
+
+.departments{
+    text-align: center;
+}
+.dephead{
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.departments h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    margin: 3% 0;
+    background-color: rgb(250, 147, 74);
+    color: white;
+}
+.departments .list ul{
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+.departments .list ul li{
+    list-style-type: none;
+}
+.departments .list ul li a{
+    color: #005c87;
+    text-decoration: none;
+    line-height: 35px;
+}
+.departments .list ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Mechanical Department */
+.mechdepart p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 20%;
+    color: rgb(0, 0, 0);
+    background-color: #20A39E;
+    margin: 5% 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mechdepart p span{
+    font-weight: 600;
+    margin-left: 1%;
+    font-size: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.mechpic{
+    margin: 4% 0%;
+    text-align: center;
+}
+.mechpic h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mechpic h3,.mechpic p{
+    margin: 4% 0%;
+}
+.mechcontent{
+    width: 70%;
+    margin: 1% auto;
+}
+.mechpara{
+    line-height: 30px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.electricalpara{
+    width: 100%;
+}
+
+
+.iothead p{
+    font-size: 24px;
+}
+
+.iothead1 p{
+    font-size: 26px;
+}
+
+
+.mbahead1 p{
+    font-size: 18px;
+}
+
+
+/* Infrastructure */
+
+.headlib{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15%;
+    margin: 5% 0%;
+    color: white;
+    background-color: seagreen;
+}
+.central h3{
+    text-align: center;
+}
+.central img{
+    margin: 5% 15%;
+}
+.central p{
+    word-spacing: 3px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.central{
+    width: 70%;
+    margin: 5% auto;
+}
+
+.library h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+
+/* Placements */
+
+
+.placements{
+    width: 80%;
+    margin: 10% auto;
+    text-align: center;
+    border:30px solid rgba(231, 231, 29, 0.675);
+}
+.placements h3{
+    margin: 3% 0%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.placements img{
+    margin: 1%;
+}
+
+.placementdetails{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 0% 3% 5%;
+}
+.placementdetails .mem{
+    margin: 4% 6%;
+    background-color: #cbf3f2;
+    padding: 1%;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.placementdetails .mem p{
+    margin: 4% 0%;
+}
+.placementdetails .mem h4{
+    color: #E71D36;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.placementdetails .mem6{
+    margin-left: 8%;
+}
+.teamhead{
+    text-align: center;
+    padding: 2%;
+    margin-top: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(230, 142, 79);
+}
+
+
+/* Admission Page */
+
+.placementdetails .mem3{
+    margin-left: 9%;
+}
+
+.filladmission h2{
+    text-align: center;
+    background-color: springgreen;
+    padding: 3% 0%;
+    margin: 5% 0%;
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.admissionhead{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.admissionhead h2{
+    padding: 1% 0%;
+    line-height: 35px;
+}
+.admissionhead hr{
+    color: #E71D36;
+}
+.admissionhead i{
+    font-size: 70px;
+    color: #E71D36;
+}
+.admissionform label{
+    display: block;
+    margin: 6% 0%;
+}
+.admissionform{
+    margin: 4% 16%;
+    border: 2px solid black;
+}
+.admissioncontact{
+    padding: 4% 10%;
+}
+.admissioncontact input{
+    padding: 1% 2%;
+    outline: none;
+}
+.admissionformtag{
+    letter-spacing: 0.6px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.admissionformtag button{
+    text-align: center;
+    margin: 2% 45%;
+    padding: 1% 2%;
+    cursor: pointer;
+    background-color: #005c87;
+    color: white;
+    border: none;
+    outline: none;
+}
+.admissionformtag button:hover{
+    background-color: springgreen;
+    color: black;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+/* Contact Page */
+.contactform{
+    width: 50%;
+    margin: 10% auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactform fieldset{
+    padding: 5%;
+    margin: 5% 0%;
+}
+.contactformhead{
+    text-align: center;
+    margin-top: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contactformhead h3{
+    margin: 3% 0%;
+}
+
+.submitcontact{
+    text-align: center;
+}
+.submitcontact button{
+    padding: 2% 4%;
+    background-color: #F1E03B;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submitcontact button:hover{
+    background-color: #E71D36;
+    color: white;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footersec1{
+    width: 40%;
+    margin: 1% 1%;
+    text-align: center;
+}
+.footersec1 i{
+font-size: 70px;
+color: #E71D36;
+margin: 3% 0%;
+}
+.footersec1 i:hover{
+    color: #005c87;
+}
+.footoffices{
+    text-align: center;
+    width: 50%;
+    margin: 1% 1%;
+}
+.footoffices ul li{
+    list-style-type: none;
+}
+.footoffices ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footoffices ul li a:hover{
+    text-decoration: underline;
+}
+.footaddress{
+    text-align: center;
+    width: 60%;
+    margin: 1% 1%;
+}
+.footerreach{
+    width: 30%;
+    text-align: center;
+    margin: 1% 8% 1% 5%;
+}
+.footerreach img{
+    width: 110%;
+}
+.footersection{
+    display: flex;
+    font-size: 18px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.footersection h3{
+    font-family: 'Signika Negative', sans-serif;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10%;
+    color: white;
+    background-color: rgb(79, 81, 79);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+    header .nav ul{
+        position: relative;
+        display: block;
+        overflow: hidden;
+
+    }
+}
